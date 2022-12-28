@@ -58,7 +58,7 @@ function Baniere() {
         </div>
         </Fade>
         <Fade left>
-        <div className='bg-white w-full p-4 border-[1px] rounded-[12px] border-[#EAEFFA] shadow-md'>
+        <div className='bg-white dark:bg-gray-900 w-full p-4 border-[1px] rounded-[12px] border-[#EAEFFA] shadow-md'>
             <div>
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] dark:text-white">Education</h5>
             </div>
@@ -72,7 +72,7 @@ function Baniere() {
         </div>
         </Fade>
         <Fade left>
-        <div className='bg-white w-full p-4 border-[1px] rounded-[12px] border-[#EAEFFA] shadow-md'>
+        <div className='bg-white dark:bg-gray-900 w-full p-4 border-[1px] rounded-[12px] border-[#EAEFFA] shadow-md'>
             <div>
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] dark:text-white">
                 Culture

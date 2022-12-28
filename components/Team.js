@@ -6,7 +6,7 @@ function Team() {
   return (
     <>
     <section class="bg-white dark:bg-gray-900">
-    <Slide bottom opposite>
+    
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
       <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
         {/* <Slide left opposite> */}
@@ -110,7 +110,6 @@ function Team() {
           </div>
       </div>  
   </div>
-  </Slide>
 </section>
     
     </>

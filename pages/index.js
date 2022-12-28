@@ -17,14 +17,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main >
+      
         <Nav />
         {/* <Accueil /> */}
         <Baniere />
         
 
           <Team />
-      </main>
+      
 
       <Footer />
 
