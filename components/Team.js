@@ -9,7 +9,7 @@ function Team() {
     <Slide bottom opposite>
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
       <div class="mx-auto mb-8 max-w-screen-sm lg:mb-16">
-        <Slide left opposite>
+        {/* <Slide left opposite> */}
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white" id='membres'>
           <a href='#membres' aria-hidden="true">                    
                     Les membres
@@ -18,7 +18,7 @@ function Team() {
           <p class="font-light text-gray-500 sm:text-xl dark:text-gray-400">
             Le bureau éxecutif de PJL est composé de vingt deux (22), le bureau est élu par l'AG au bulletin secret et de 9 membres pour un mandat de trois ans renouvelable.
           </p>
-          </Slide>
+          {/* </Slide> */}
       </div> 
       <div class="grid gap-8 lg:gap-16 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           <div class="text-center text-gray-500 dark:text-gray-400">

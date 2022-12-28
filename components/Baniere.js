@@ -8,21 +8,21 @@ import Roll from 'react-reveal/Roll';
 function Baniere() {
   return (
 <>
-    <div className='bg-[#B2EBF2] p-4 w-full'>
+    <div className='bg-gray-100 p-4 w-full'>
     
     <div className='flex justify-between mb-8 mt-8 sm:grid sm:grid-rows-1 gap-4 p-4  '>
             <div className='w-full order-last sm:order-first'>
-            <img src="banner1.png" width="100%"  alt="placehold images"/>
+            <img src="law.png" width="100%" height={10} alt="placehold images"/>
 
             </div>
-            <div className='  p-4  w-full '>
+            <div className='  p-4  w-full 'id='bienvenue'>
                 <Pulse>
-                <h1 className=' font-bold text-[60px] font-[Open Sans]  text-black flex justify-center items-center mb-4 iphone3:text-[40px]' id='bienvenue'>
+                <h1 className=' font-bold text-[60px] font-[Open Sans]  text-black flex justify-center items-center mb-4 iphone3:text-[40px]' >
                     <a href='#bienvenue' aria-hidden="true">
                     Bienvenue au PJL
                     </a>
                     </h1></Pulse>
-                <Slide top >
+                <Slide bottom >
                 <p className='leading-7 text-black'>
                     
                     Le Parti pour la Justice et la Liberté (PJL) est un jeune parti politique œvra pour le <strong>salut</strong> et la <strong>rédemption</strong> du peuple tchadien. En effet le <strong> PJL </strong> se fixe commme objectifs l'instauration d'institutions politiques démocratiques modernes, solides, adaptées aux réalités nationales d'une part et la consolidation de <strong> l'unité nationale </strong>, la <strong> sécurité</strong> du peuple tchadien, le <strong>libéralisme économique</strong>, et la <strong>promotion des PME, de l'agriculture, et de l'elevage</strong> d'autres part.
@@ -45,7 +45,7 @@ function Baniere() {
     <div className=' p-4 flex justify-between  sm:flex-col gap-4 '>
     
         <Fade left>
-        <div className='bg-white w-full order-last sm:order-first p-4 border-[1px] rounded-[12px] border-[#EAEFFA] shadow-md'>
+        <div className='bg-white dark:bg-gray-900 w-full order-last sm:order-first p-4 border-[1px] rounded-[12px] border-[#EAEFFA] shadow-md'>
             <div>
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] dark:text-white">Santé et Affaires sociales</h5>
                 
@@ -57,7 +57,7 @@ function Baniere() {
             </div>
         </div>
         </Fade>
-        <Fade right>
+        <Fade left>
         <div className='bg-white w-full p-4 border-[1px] rounded-[12px] border-[#EAEFFA] shadow-md'>
             <div>
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] dark:text-white">Education</h5>
