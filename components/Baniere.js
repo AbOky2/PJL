@@ -25,7 +25,7 @@ function Baniere() {
                     </a>
                     </h1></Pulse>
                 <Slide bottom >
-                <p className='leading-7 text-gray-600 w-full overflow-hidden text-ellipsis text-lg'>
+                <p className='leading-7 text-gray-600 font-medium w-full overflow-hidden text-ellipsis text-lg'>
                     
                     Le Parti pour la Justice et la Liberté (PJL) est un jeune parti politique œvra pour le <strong>salut</strong> et la <strong>rédemption</strong> du peuple tchadien. En effet le <strong> PJL </strong> se fixe comme objectifs l'instauration d'institutions politiques démocratiques modernes, solides, adaptées aux réalités nationales d'une part et la consolidation de <strong> l'unité nationale </strong>, la <strong> sécurité</strong> du peuple tchadien, le <strong>libéralisme économique</strong>, et la <strong>promotion des PME, de l'agriculture, et de l'elevage</strong> d'autres part.
                 </p>
@@ -47,7 +47,7 @@ function Baniere() {
     <div className=' p-4 flex justify-between  sm:flex-col gap-4 '>
     
         <Fade left>
-        <div className='bg-blue-400 dark:bg-gray-900 w-full order-last sm:order-first p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
+        <div className='bg-blue-400  w-full order-last sm:order-first p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
             <div>
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-yellow-300 dark:text-white">Santé et Affaires sociales</h5>
                 
@@ -60,7 +60,7 @@ function Baniere() {
         </div>
         </Fade>
         <Fade left>
-        <div className='bg-yellow-500 dark:bg-gray-900 w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
+        <div className='bg-yellow-500  w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
             <div>
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] dark:text-white">Education</h5>
             </div>
@@ -74,7 +74,7 @@ function Baniere() {
         </div>
         </Fade>
         <Fade left>
-        <div className='bg-red-700 dark:bg-gray-900 w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
+        <div className='bg-red-700  w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
             <div>
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] dark:text-white">
                 Culture
@@ -90,7 +90,7 @@ function Baniere() {
         </Fade>
 
         <Flip left>
-        <div className='bg-white dark:bg-gray-900 w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
+        <div className='bg-white  w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
             <div>
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] dark:text-white">
                 Environement
@@ -106,7 +106,7 @@ function Baniere() {
         </Flip>
 
         <Flip left>
-        <div className='bg-white dark:bg-gray-900 w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
+        <div className='bg-white  w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
             <div>
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] dark:text-white">
                 Jeunesse
@@ -115,6 +115,7 @@ function Baniere() {
             <div>
                 <p className='text-black font-[Open Sans] '>
                     Etant un pays où 80% de la population à moins de trente (30) ans, l'avenir du pays se dessinera autour de la jeunnesse.
+                    <br/> Cette relance se fera à travers les formations adaptées aux besoins actuels du pays.
                 </p>
             </div>
             

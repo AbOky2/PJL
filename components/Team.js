@@ -8,7 +8,7 @@ function Team() {
   return (
     <>
 
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white ">
     
   <div class="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-6">
     <Slide left>
