@@ -9,7 +9,7 @@ import {ImLinkedin2} from "react-icons/im"
 
 function Footer() {
   return (
-    <footer className=' bg-[#4D0675] p-4'>
+    <footer className=' bg-gray-900 p-4'>
         <div className='flex justify-center gap-12 text-gray-500 p-4'>
             <div>
                 <ImFacebook/>
