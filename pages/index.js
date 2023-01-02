@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Parti pour la Justice et la Liberté</title>
         <meta name="description" content="PJL-TCHAD" />
-        <link rel="icon" href="/abdoulay_page.jpg" />
+        <link rel="icon" href="/lancementT.jpg" />
       </Head>
 
       
