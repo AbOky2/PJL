@@ -19,6 +19,7 @@
     "dotenv": "^16.0.3",
     "eslint": "8.30.0",
     "eslint-config-next": "13.0.7",
+    "flat-carousel": "^0.0.1",
     "ftp-deploy": "^2.4.3",
     "hamburger-react": "^2.5.0",
     "mui": "^0.0.1",
@@ -26,8 +27,10 @@
     "path": "^0.12.7",
     "pm2": "^5.2.2",
     "react": "18.2.0",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",
+    "react-responsive-carousel": "^3.2.23",
     "react-reveal": "^1.2.2"
   },
   "devDependencies": {

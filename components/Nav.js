@@ -45,7 +45,8 @@ export default function Nav () {
         <Container maxWidth="md">
         <Toolbar disableGutters>
             <Avatar className={styles.avatar}>
-                <img src='abdoulay_page.jpg' className='object-fill'/>
+                <a href='/'>
+                <img src='abdoulay_page.jpg' className='object-fill'/></a>
                 </Avatar>
             <Hidden xsDown>
         {navigationLinks.map((item) =>(

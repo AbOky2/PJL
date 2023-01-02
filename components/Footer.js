@@ -22,7 +22,7 @@ function Footer() {
             </div>
         </div>
         <div className=' text-gray-500 border-t-2 border-gray-500 flex justify-center mt-8 p-4'> 
-        © 2022 Copyright PJL</div>
+        © 2023 Copyright PJL</div>
         
     </footer>
   )
