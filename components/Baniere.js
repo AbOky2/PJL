@@ -62,7 +62,7 @@ function Baniere() {
         <Fade left>
         <div className='bg-yellow-500  w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
             <div>
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] dark:text-white">Education</h5>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] ">Education</h5>
             </div>
             <div>
                 <p className='text-[#6976A0] font-[Open Sans] '>
@@ -76,7 +76,7 @@ function Baniere() {
         <Fade left>
         <div className='bg-red-700  w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
             <div>
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] dark:text-white">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] ">
                 Culture
                 </h5>
             </div>
@@ -90,9 +90,9 @@ function Baniere() {
         </Fade>
 
         <Flip left>
-        <div className='bg-white  w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
+        <div className='bg-slate-100  w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
             <div>
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] dark:text-white">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] ">
                 Environement
                 </h5>
             </div>
@@ -106,9 +106,9 @@ function Baniere() {
         </Flip>
 
         <Flip left>
-        <div className='bg-white  w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
+        <div className='bg-slate-100  w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
             <div>
-            <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] dark:text-white">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] ">
                 Jeunesse
                 </h5>
             </div>
