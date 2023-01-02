@@ -32,6 +32,41 @@ function Baniere() {
                 </Slide>
 
             </div>
+
+            {/* //En Arabe */}
+
+            <div className='  w-full 'id='bienvenue'>
+                <Pulse>
+                <h1 className=' font-bold text-[50px] font-[Open Sans]  text-black flex justify-center items-center mb-4 iphone3:text-[30px]' >
+                    <a href='#bienvenue' aria-hidden="true">
+                    مرحبا بكم في حزب العدالة والحرية
+                    </a>
+                    </h1></Pulse>
+                <Slide bottom >
+                <p className='leading-7 text-gray-600 font-medium w-full overflow-hidden text-ellipsis text-lg text-right'>
+                    
+                حزب العدالة والحرية هو حزب سياسي أنشأ بيد شباب تشاديين غيورين لإنقاذ الشعب التشادي  
+                
+                                
+                حدد حزب العدالة والحرية لنفسه أهدافا تتمثل في الاتي:
+                ,ترسيخ الوحدة الوطنية بين ابنا الوطن
+                ,ترسيخ الديمقراطية وسيادة القانون والحكم الرشيد
+                ,تحسين الظروف الإجتماعية والاقتصادية والثقافية لجميع الفئات من أبناء الوطن.
+                تعزيز التنمية المستدامة في المناطق الريفية.
+                تحقيق الحرية والعدالة من خلال الصوت الديمقراطي.
+                توعية الشباب على المشاركة الفعالة في سياسة الوطن والمطالبة عن حقوقهم
+
+
+ ترسيخ الوحدة الوطنية لمحاربة الجهوية والقبلية والعنصرية.
+الممارسة الفعالة وتعزيز ثنائية اللغة والدفاع عنها بالطرق القانونية
+ تعزيز التنمية الاقتصادية الذاتية والمتوازنة من خلال الأمثل لجميع الموارد المادية والبشرية والفكرية والمعنوية.
+
+                                </p>
+                </Slide>
+
+            </div>
+
+            
         </div>
     </div>
 
@@ -130,7 +165,113 @@ function Baniere() {
 
         
      </div>
+
+
+    {/* En Arabe */}
+
+
+
+     <div className='text-[40px] text-center justify-center flex font-[Open Sans] font-semibold text-orange-100' id='objectif'>
+            <a href='#objectif' aria-hidden="true">
+            البرنامج السياسي
+            </a>
      </div>
+    
+    <div className=' p-4 flex justify-between  sm:flex-col gap-4 '>
+    
+        <Fade left>
+        <div className='bg-blue-400  w-full order-last sm:order-first p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
+            <div>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-yellow-300 dark:text-white">الشؤون الصحية والاجتماعي</h5>
+                
+            </div>
+            <div>
+                <p className='text-gray-200 font-[Open Sans] '>
+                سيبذل الطرف قصارى جهده لضمان توفير الصحة للجميع.  لهذا الغرض ، يتم النظر في إجراءات متماسكة ومنسقة مثل إنشاء تغطية صحية وطنية من خلال إعادة التأهيل ، وبناء البنية التحتية المناسبة في جميع أنحاء الإقاليم ، وتدريب المديرين التنفيذيين على جميع المستويات وتطوير الأطباء.
+                </p>
+            </div>
+        </div>
+        </Fade>
+        <Fade left>
+        <div className='bg-yellow-500  w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
+            <div>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] ">التعليم</h5>
+            </div>
+            <div>
+                <p className='text-[#6976A0] font-[Open Sans] '>
+                هي أفضل وسيلة لتنمية الإنسان وأحد حقوقه الأساسية ، فإن PJL سيبذل قصارى جهده لتعميم التعليم الابتدائي بجعله إلزاميًا في جميع أنحاء الإقاليم.ويشجع  تعليم الفتيات وأبناء الرحل،ستخضع مهنة التدريس لتغيير كبير مع ترقية المعلمين وَتدريبهم لأداء أفضل.
+                تطوير التعليم الفني والمهني، تأهيل وبناء البنية التحتية المدرسية وتجهيزها، تعزيز القدرة الاستيعابية ووسائل العمل لمؤسسات التعليم العالي من خلال إعادة تأهيل وبناء هياكلها ،تكييف محتوى التدريب الجامعي مع الاحتياجات الإجتماعية والاقتصادية لبلدنا ،العمل بحيث يكون التعليم العالي في متناول الجميع.
+                </p>
+                
+            </div>
+            
+        </div>
+        </Fade>
+        <Fade left>
+        <div className='bg-red-700  w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
+            <div>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] ">
+            الثقافة
+                </h5>
+            </div>
+            <div>
+                <p className='text-black font-[Open Sans] '>
+                النضال بلا هوادة من أجل تأهيل وتعزيز ثقافات وقيم تشاد التقليدية من أجل وضعها في خدمة الوحدة الوطنية وتنمية الرجل التشادي فيما يتعلق بالتنوع التكميلي.  - العمل على النهوض باللغات الوطنية.  - عدم إهمال أي شيء من أجل الترويج لرياضة الجماهير وتشجيع رياضة النخبة في جميع التخصصات من أجل سمعة البلاد.
+
+                </p>
+            </div>
+            
+        </div>
+        </Fade>
+
+        <Flip left>
+        <div className='bg-slate-100  w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
+            <div>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] ">
+            البيئة
+                </h5>
+            </div>
+            <div>
+                <p className='text-black font-[Open Sans] '>
+                حماية النظم البيئية والحفاظ عليها والمهددة بشكل خطير من خلال الحد من الأسباب البشرية للتصحر ، وتصحيح عواقب الجفاف والبحث المستمر عن التوازن الاجتماعي، من أجل خلق بئية ملائمة لحياة المواطن والمخلوقات الأخرى.
+                </p>
+            </div>
+            
+        </div>
+        </Flip>
+
+        <Flip left>
+        <div className='bg-slate-100  w-full p-4  rounded-[12px] border-[#EAEFFA] shadow-md'>
+            <div>
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-[#113EB6] ">
+            الشباب
+                </h5>
+            </div>
+            <div>
+                <p className='text-black font-[Open Sans] '>
+                كونها دولة تقل أعمار  80٪ من سكانها عن ثلاثين (30) عامًا ، فإن مستقبل البلاد سيتشكل حول الشباب.  سيتم هذا الإحياء من خلال التدريب المتكيف مع الاحتياجات الحالية للبلد.وتشجيع الشباب للمشاركة الفعالة في بناء الدولة.
+
+                </p>
+            </div>
+            
+        </div>
+        </Flip>
+        <Roll left>
+        <button type="button" class="focus:outline-none text-white bg-yellow-400 hover:bg-yellow-500 focus:ring-4 focus:ring-yellow-300 font-medium rounded-lg text-xs px-5 py-2.5 mr-2 mb-2 dark:focus:ring-yellow-900  max-w-[110px]">
+            <a href='/ouverture'>
+            أكثر معلومات
+
+                </a></button></Roll>
+
+
+        
+     </div>
+     </div>
+
+
+
+
+     
      
 
    
