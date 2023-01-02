@@ -14,9 +14,7 @@ function lancement() {
   return (
     <>
     <Head>
-    <title>Parti pour la Justice et la Liberté</title>
-        <meta name="description" content="PJL-TCHAD" />
-        <link rel="icon" href="/abdoulay_page.jpg" />
+    
         <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
